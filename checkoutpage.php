@@ -236,7 +236,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     var country = jQuery('#country').val();
 
     var options = {
-        "key": "rzp_test_OM08EjjiG3F8AZ",
+        "key": "<?php echo $key?>",
         "amount": amt * 100, 
         "currency": "INR",
         "name": "Mugdha Fashion Hub",
